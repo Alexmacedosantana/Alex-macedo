@@ -1,0 +1,537 @@
+
+* {
+  font-family: "Poppins", sans-serif;
+   margin: 0;
+   padding: 0;
+   outline: none;
+   border: none;
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: 0.2s linear;
+ 
+
+}
+body{
+    background-color: #f6eff5;
+  
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom:0.1rem solid rgba(231, 222, 222, 0.989) ;
+    background-color: #d6afcb;
+    
+}
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+        
+}
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+    
+}
+.navbar a:hover {
+    color: brown;
+    border-bottom: #fff;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.home-container {
+
+background-repeat: no-repeat;
+top: auto;
+right: 10px;
+
+
+}
+.h2 {
+    position: relative;
+    top:50%;
+    left: 50%;
+    text-align: left;
+ 
+}
+
+.img-home {
+margin: auto;
+justify-items: end;
+padding: 20px;
+height: 100vh;
+width: 227vh;
+border-radius: 12px;
+margin-top: 80px;
+gap: 80vh;
+
+}
+
+.bolo1 {
+    border-radius: 12px;
+    height:  35vh;
+    width:  35vh;
+    display: block;
+margin-bottom: 10px;
+
+}
+
+.bolo2 {
+    border-radius: 12px;
+    height: 35vh;
+    width:  35vh;
+    display: block;
+margin-bottom: 10px;
+
+}   
+
+.bolo3 {
+ border-radius: 12px; 
+ height: 35vh;
+ width:  35vh; 
+ display: block;
+margin-bottom: 20px;
+}
+.bolo4 {
+    border-radius: 12px;
+    height: 35vh;
+    width: 35vh;
+    display: block;
+margin-bottom: 20px;
+}
+
+.doces1 {
+height: 35vh;
+width: 35vh;
+border-radius: 12px;
+display: block;
+margin-bottom: 20px;
+}
+
+.doces2 {
+    height: 35vh;
+    width: 35vh;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 20px; 
+}
+.doces3 {
+    height: 35vh;
+    width: 35vh;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 20px;
+}
+.doces4 {
+ height: 35vh;
+width: 35vh;
+border-radius: 12px;
+display: block;
+margin-bottom: 20px;
+}
+.doces5 {
+    height: 35vh;
+    width: 35vh;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 20px; 
+}
+.doces6 {
+    height: 35vh;
+width: 35vh;
+border-radius: 12px;
+display: block;
+margin-bottom: 20px;
+}
+.doces7 {
+    height: 35vh;
+width: 35vh;
+border-radius: 12px;
+display: block;
+margin-bottom: 20px;
+}
+
+.salgado1 {
+    height: 35vh;
+    width: 35vh;
+   border-radius: 12px;
+   display: block;
+margin-bottom: 20px; 
+}
+.salgado2 {
+    display: flex;
+    height: 35vh;
+    width: 35vh;
+   border-radius: 12px;
+   display: block;
+margin-bottom: 20px;
+}
+
+.salgado3 {
+    display: flex;
+    height: 35vh;
+    width: 35vh;
+   border-radius: 12px;
+   display: block;
+margin-bottom: 20px;
+}  
+.salgado4{
+    display: flex;
+    height: 35vh;
+    width: 35vh;
+   border-radius: 12px;
+   display: block;
+margin-bottom: 20px; 
+}
+
+
+.aguamineral1 {
+   height: 35vh;
+   width: 35vh;
+   border-radius: 12px; 
+   display: block;
+margin-bottom: 20px;
+}
+.cocacola1 {
+    height: 35vh;
+    width: 35vh;
+   border-radius: 12px;
+   display: block;
+margin-bottom: 20px;
+}
+.cocacola2 {
+    height: 35vh;
+    width: 35vh;
+   border-radius: 12px;
+   display: block;
+margin-bottom: 20px;
+}
+.agualimao{
+    height: 35vh;
+    width: 35vh;
+   border-radius: 12px;
+   display: block;
+margin-bottom: 20px;
+}
+.bloco2 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px;
+
+}
+
+.bloco1 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin:  30px  
+}
+.bloco3 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin:  30px
+}
+.bloco4 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin:  30px
+}
+
+.bloco-d1{
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+.bloco-d2{
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+
+.bloco-d3{
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+
+.bloco-d4{
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+
+
+.bloco-s1 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+.bloco-s2 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+.bloco-s3 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+.bloco-s4 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+
+.bloco-b1 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+.bloco-b2 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px
+}
+.bloco-b3 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px 
+}
+.bloco-b4 {
+    background-color: rgb(252, 233, 255);
+    height: 35vh;
+    border: 1px solid firebrick;
+    border-radius: 50px;
+    margin: 30px 
+}
+
+.title1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   color: black;
+   text-decoration: dotted;
+   font-size: 60px;
+}
+.title2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   color: black;
+   text-decoration: dotted;
+   font-size: 60px;
+}
+.title3 {
+ text-align: center;
+    display: flex;
+    justify-content: center;
+   color: black;
+   text-decoration: dotted;
+   font-size: 60px;
+}
+.title4 {
+    text-align: center;
+       display: flex;
+       justify-content: center;
+      color: black;
+      text-decoration: dotted;
+      font-size: 60px;
+}
+
+.bolos-confeitados {
+    text-align: center;
+    display: inline-block;
+}
+.compre {
+    font-size: 25px;
+    padding: 10px 8px;
+    height: 90px;
+    width: 190px;
+    background: #fff;
+    color: #000;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: background 2s;
+    transform: translate(+550%, -160%);
+    
+   
+}
+.compre:hover{
+    background: #d6afcb;
+}
+.h2-conf{
+    transform: translate(+45%, -1300%);
+    font-size: 16px;
+    position: relative;
+    
+}
+.main-foot{
+    height: 45vh;
+    border: 1px solid firebrick;
+    margin: 30px;
+    align-items: center;
+    right: 20px;
+    margin-bottom: 5px;
+    background-color: #f3d9eb;
+}
+.icons  {
+    margin: 2rem;
+    cursor: pointer;
+    width: 100vh;
+    background-color: aqua;
+
+ }
+ .icons img:hover {
+     width: 40px;
+     height: 40px;
+ }
+ .h2-foot{
+    text-align: left;
+    margin: 2rem;
+ }
+.contato{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+
+}
+
+.email{
+    transform: translate(-40%, -198%); 
+}
+.link-e{
+    transform: translate(-5%,+40% );
+    font-size: 20px;
+    color: #000;
+}
+.endereco{
+    transform: translate(+20%, +5%);
+    font-size: 20px;
+  
+    
+} 
+.map{
+    transform: translate(-7%, -330%);
+    width: 35px;
+    height: 35px; 
+}
+.link-l{
+    transform: translate(+0%, -200%); 
+    font-size: 20px;  
+}
+
+
+.pag-1{
+width: 10vh;
+transform: translate(+890%,-50%)
+
+}
+.pag-2{
+width: 10vh;
+transform: translate(+890%,-50%)
+}
+.pag-3{
+ width: 10vh;
+ transform: translate(+890%,-50%)
+}
+.pag-4{
+ width: 10vh;
+ transform: translate(+890%,-50%)
+}
+.pag-5{
+ width: 10vh;
+ transform: translate(+890%,-50%)
+}
+.pag-6{
+ width: 10vh;
+ transform: translate(+890%,-50%)
+}
+.h2-2{
+    transform: translate(+45%, -8vh);
+}
+.rd{
+    transform: translate(+180vh, -60vh);
+     
+}
+.whast{
+    transform: translate(+150vh, -20vh);
+    width: 5vh;
+}
+.faceb{
+    transform: translate(+150vh, -20vh);
+    width: 5vh; 
+}
+.insta{
+    transform: translate(+150vh, -20vh);
+    width: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
